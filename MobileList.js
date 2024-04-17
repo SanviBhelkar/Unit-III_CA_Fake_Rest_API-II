@@ -6,7 +6,7 @@ const MobileList = () => {
   const [mobiles, setMobiles] = useState([]);
 
   useEffect(() => {
-    fetch('https://my-json-server.typicode.com/SanviBhelkar/Unit-II_CA_Fake-rest-API/gadegets')
+    fetch('https://my-json-server.typicode.com/SanviBhelkar/Unit-III_CA_Fake_Rest_API-II')
       .then(response => response.json())
       .then(data => setMobiles(data));
   }, []);
